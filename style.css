@@ -52,7 +52,9 @@ nav a {width:0; flex-grow: 1;text-align: center; height: 44px; line-height: 44px
 /** 베스트 상품 진열 S */
 #best_item {text-align: center; padding:20px; }
 .best_item_box {display:flex; flex-wrap:wrap; margin: 0px 15px;}
-.best_item_box >li {width:calc(50%);margin-bottom:30px; }
+.best_item_box >li {width:calc(50% - 8px);margin-bottom:30px; }
+.best_item_box >.box2 { margin-left: 16px; }
+.best_item_box >.box4 { margin-left: 16px; }
 /**
 .best_item_box > li:nth-child(2n+1) {margin-left:0;}
 */
@@ -76,7 +78,8 @@ nav a {width:0; flex-grow: 1;text-align: center; height: 44px; line-height: 44px
 /** 추천 상품 S */
 .recomm_item {text-align:center; padding: 20px;}
 .recomm_item_box {display:flex; flex-wrap:wrap; margin: 0px 15px;}
-.recomm_item_box >li{ width:calc(50%); margin-bottom:30px;}
+.recomm_item_box >li{ width:calc(50% - 8px); margin-bottom:30px;}
+.recomm_item_box >.box2 {margin-left:16px;}
 .recomm_item_box .recomm_item_list .item_img {width:100%; border-radius:10px; margin-bottom:10px;}
 /** 베스트 상품과 중복 됨  S */
 .item_price {font-size:16px;}
